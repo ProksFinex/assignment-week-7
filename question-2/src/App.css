@@ -1,0 +1,32 @@
+.App{
+    text-align: center;
+    color: white;
+    
+}
+
+.buttons{
+    margin-top:40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+.btn{
+    border:none;
+    padding: 10px 20px;
+    margin:5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+
+.red{background-color: red; color:white}
+.yellow{background-color: yellow; color:black}
+.black{background-color: black; color:white}
+.purple{background-color: purple; color:white}
+.green{background-color: green; color:white}
+.blue{background-color: blue; color:white}
+.white{background-color: white; color:black}

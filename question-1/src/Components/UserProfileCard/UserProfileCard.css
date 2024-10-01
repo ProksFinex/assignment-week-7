@@ -1,0 +1,146 @@
+/* .upc{
+    width:330px;
+    margin:20px auto;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    background:rgb(208, 236, 245) ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.gradiant{
+    background-image: url("../assets/bluebg.jpg");
+    height: 125px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    background-size: cover;
+
+}
+
+.profile-down img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px ;
+    margin-top: -75px;
+    background:white ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-title{
+    margin-top: 4%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    
+}
+.profile-age{
+    font-size: 14px;
+    opacity: 70%;
+}
+
+.profile-location{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    opacity: 70%;
+    font-weight: bold;
+}
+
+/* .borderOne{
+    width: 100%;
+    position:absolute ;
+    left: 0;
+    bottom: 0;
+    margin-top: 30%;
+    border-bottom-style: solid ;
+    border-color: rgba(2, 191, 233, 0.426);
+    
+} */
+
+.upc {
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    background: rgb(208, 236, 245);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; */
+}
+
+.gradiant {
+    background-image: url("../assets/bluebg.jpg");
+    height: 125px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    background-size: cover;
+}
+
+.profile-down img {
+    height: 100px;
+    width: 100px;
+    padding:2px;
+    border-radius: 50%;
+    margin-top: -65px;
+    background:  rgb(208, 236, 245);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-title {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.profile-age {
+    font-size: 14px;
+    opacity: 70%;
+}
+
+.profile-location {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    opacity: 70%;
+    font-weight: bold;
+}
+
+/* Full-width border */
+.borderOne {
+    width: 100%; /* Full width */
+    position: relative;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* New stats section */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Full width */
+    padding: 10px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.stats div {
+    flex: 1; /* Ensure equal spacing */
+}
+
+.stats div span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
