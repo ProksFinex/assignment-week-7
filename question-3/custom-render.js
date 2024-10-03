@@ -11,7 +11,7 @@ const reactElement={
 function createHTML(reactElement){
     const{type,props}=reactElement;
 
-    //construct the html tag as an HTML string
+    //construct the html tag as an HTML string 
     return `<${type} href="${props.href}">${props.children}</${type}>`
 }
 
