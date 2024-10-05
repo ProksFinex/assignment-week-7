@@ -1,0 +1,33 @@
+:root{
+  font-family: "Sofia", sans-serif;
+  background-color: rgb(87, 87, 87);
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large ; 
+  color:aquamarine;
+  text-shadow: 10px 10px 0px #01a9a9,
+                20px 20px 0px #015858,
+                30px 30px 0px #002a2a;
+}
+
+
+input[type=number]{
+  font-family: "Sofia", sans-serif;
+  width: 60%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border:2px solid gray;
+  border-radius: 15px;
+  
+}
+
+.button{
+  padding: 13px 30px;
+  margin-left: 20px;
+  border-radius: 15px;
+  background:#01a9a9;
+  border-style: solid;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Sofia", sans-serif;
+}
