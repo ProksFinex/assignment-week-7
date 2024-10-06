@@ -18,6 +18,7 @@ input[type=number]{
   box-sizing: border-box;
   border:2px solid gray;
   border-radius: 15px;
+
   
 }
 
@@ -35,5 +36,12 @@ input[type=number]{
 .para{
   font-family: "Sofia", sans-serif;
   text-shadow: none;
-  color:aqua;
+  color:aqua ;
+  font-size: large;
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 8%;
+  padding: 40px 20px;
+  margin-block-start: 1%;
+  
 }
